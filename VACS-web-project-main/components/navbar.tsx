@@ -9,6 +9,7 @@ import Send from "lucide-react/dist/esm/icons/send"
 import { cn } from "@/lib/utils"
 import { usePathname } from "next/navigation"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import Image from "next/image"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -35,7 +36,15 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between py-4">
         <Link href="/" className="flex items-center gap-2 text-white">
-          <Send size={24} />
+          {/* <Send size={24} /> */}
+          <Image 
+            src='/vacslogo.png'
+            width={35}
+            height={35}
+          />
+          {/* </Image> */}
+          <br></br>
+          {/* <br /> */}
           <span className="text-xl font-bold">DREAM SCHOOLS</span>
         </Link>
 
