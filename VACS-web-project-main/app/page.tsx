@@ -47,7 +47,7 @@ export default function Home() {
         <section
           id="hero"
           className="relative min-h-screen flex items-center bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/hero-classroom.png')" }}
+          style={{ backgroundImage: "url('/home/unsplash_GDokEYnOfnE.png')" }}
         >
           <div className="absolute inset-0 bg-[--clr-primary] opacity-30"></div>
           <div className="relative container mx-auto px-4 z-10">
@@ -95,13 +95,13 @@ export default function Home() {
                 </p>
               </div>
               <div className="lg:col-span-2">
-                <div className="border-[16px] border-white rounded-xl shadow-lg">
+                <div className="">
                   <Image
-                    src="/images/Pictures/School Design 2.jpg"
+                    src="/home/unsplash_2s8WnAoNwR4.png"
                     alt="Students engaged in collaborative learning"
                     width={600}
                     height={400}
-                    className="w-full h-full object-cover rounded-sm"
+                    // className="w-full h-full object-cover rounded-sm"
                   />
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function Home() {
                     "We design and build charter school facilities from the ground up or renovate existing structures, always tailored to your educational mission.",
                   icon: "building",
                   color: "#5f8399",
-                  image: "/images/city-hall.jpg",
+                  image: "/home/unsplash_cXUOQWdRV4I.png",
                 },
                 {
                   title: "Educational Environment",
@@ -136,7 +136,7 @@ export default function Home() {
                     "We believe learning environments should reflect and support the needs of students and educators. Every project is driven by purpose and equity.",
                   icon: "book-open",
                   color: "#dc824f",
-                  image: "/images/educational-environment.png",
+                  image: "/home/unsplash_LvK8VKcrRjA.png",
                 },
                 {
                   title: "Real Estate Development",
@@ -144,7 +144,7 @@ export default function Home() {
                     "We provide comprehensive real estate development services, guiding charter schools through every stage of the process.",
                   icon: "home",
                   color: "#e67a7c",
-                  image: "/images/brightworld.jpg",
+                  image: "/home/unsplash_80zZ1s24Nag.png",
                 },
               ].map((service, index) => (
                 <div
@@ -241,7 +241,7 @@ export default function Home() {
         {/* 6. QUOTE OVERLAY */}
         <section
           className="relative py-32 bg-cover bg-center text-white text-center"
-          style={{ backgroundImage: "url('/images/city-hall.jpg')" }}
+          style={{ backgroundImage: "url('/home/unsplash_zFSo6bnZJTw.png')" }}
         >
           <div className="absolute inset-0 bg-[--clr-primary] opacity-60"></div>
           <div className="relative container mx-auto px-4">
