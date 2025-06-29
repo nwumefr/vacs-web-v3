@@ -10,7 +10,7 @@ const services = [
     title: "Real Estate Development",
     description:
       "From concept to completion, we manage every phase of facility development—site selection, zoning, design, construction, and occupancy. Every project is tailored to your school’s educational model and vision.",
-    image: "/images/service-re.jpg",
+    image: "./services/unsplash_PlBsJ5MybGc.png",
   },
   {
     id: "project-management",
@@ -44,7 +44,8 @@ export default function ServicesPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center text-white text-center bg-cover bg-center" style={{ backgroundImage: `url('/images/hero-services.jpg')` }}>
+      <section className="relative h-[60vh] flex items-center justify-center text-white text-center bg-cover bg-center" 
+      style={{ backgroundImage: `url('/services/unsplash_80zZ1s24Nag.png')` }}>
         <div className="bg-black/40 absolute inset-0" />
         <div className="z-10 px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">WHAT WE DO</h1>
@@ -56,8 +57,8 @@ export default function ServicesPage() {
 
       {/* Tabs */}
       <section className="py-8 px-4 border-b">
-        <h2 className="text-3xl font-bold text-center text-blue-900 mb-6">OUR SERVICES</h2>
-        <div className="flex flex-wrap justify-center gap-4">
+        <h2 className="text-3xl font-bold text-center text-#5f8399 mb-6">OUR SERVICES</h2>
+        <div className="flex flex-wrap justify-center gap-4" >
           {services.map((service) => (
             <button
               key={service.id}
@@ -76,7 +77,8 @@ export default function ServicesPage() {
 
       {/* Active Service Content */}
       {current && (
-        <section className="bg-[#f5f7fa] py-12 px-4">
+        <section className="bg-[#f5f7fa] py-12 px-4" 
+        style={{ background: "#c1e3f7" }}>
           <div className="container mx-auto grid md:grid-cols-2 gap-10 items-center max-w-6xl">
             <div className="rounded-xl overflow-hidden shadow-lg">
               <Image
@@ -100,8 +102,8 @@ export default function ServicesPage() {
 
       {/* Quote Section */}
       <section className=" text-white text-center py-12 px-4" style={{background:"linear-gradient(90deg,#f4c8a4 0%,#e3a678 100%)"}}>
-        <p className="text-lg mb-3 font-medium">
-          We don’t just build schools—we build the foundation for student success and community revitalization.
+        <p className="text-2xl mb-9 font-medium">
+          We don't just build schools — we build the foundation for student success and community revitalization.
         </p>
       </section>
 
