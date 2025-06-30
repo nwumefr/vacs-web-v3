@@ -9,14 +9,14 @@ const services = [
     id: "real-estate",
     title: "Real Estate Development",
     description:
-      "From concept to completion, we manage every phase of facility development—site selection, zoning, design, construction, and occupancy. Every project is tailored to your school’s educational model and vision.",
+      "From concept to completion, we manage every phase of facility development—site selection, zoning, design, construction, and occupancy. Every project is tailored to your school's educational model and vision.",
     image: "./services/unsplash_PlBsJ5MybGc.png",
   },
   {
     id: "project-management",
     title: "Project Management",
     description:
-      "We serve as trusted owner’s reps to deliver your facility vision on time and on budget. We remove distractions so your leadership can focus on education.",
+      "We serve as trusted owner's reps to deliver your facility vision on time and on budget. We remove distractions so your leadership can focus on education.",
     image: "/images/service-pm.jpg",
   },
   {
@@ -40,18 +40,20 @@ export default function ServicesPage() {
   const current = services.find((s) => s.id === activeService)
 
   return (
-    <div className="flex flex-col min-h-screen font-sans">
+    <div className="flex flex-col min-h-screen font-sans bg-[#f5f6f8]">
       <Navbar />
-
+      <div className="fade-in">
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center text-white text-center bg-cover bg-center" 
-      style={{ backgroundImage: `url('/services/unsplash_80zZ1s24Nag.png')` }}>
-        <div className="bg-black/40 absolute inset-0" />
-        <div className="z-10 px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">WHAT WE DO</h1>
-          <p className="text-lg md:text-xl max-w-xl mx-auto">
-            At Dream Schools, we believe that excellent facilities help create great opportunities.
-          </p>
+      <section className="relative h-[260px] md:h-[340px] flex items-center justify-center bg-cover bg-center" 
+        style={{ backgroundImage: `url('/services/unsplash_80zZ1s24Nag.png')` }}>
+        <div className="absolute inset-0 bg-[#5f8399] opacity-25" />
+        <div className="relative z-10 w-full flex flex-col items-center justify-center px-4">
+          <div className="bg-[#3d5e72]/90 rounded-xl p-6 max-w-xl mx-auto shadow-lg">
+            <h1 className="text-2xl md:text-3xl font-bold mb-2 text-white">WHAT WE DO</h1>
+            <p className="text-white text-base md:text-lg">
+              At Dream Schools, we believe that excellent facilities help create great opportunities.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -83,9 +85,15 @@ export default function ServicesPage() {
             <div className="rounded-xl overflow-hidden shadow-lg">
               <Image
                 src={current.image}
-                alt={current.title}
-                width={600}
-                height={400}
+                alt={
+                  current.id === 'real-estate' ? 'Construction Site' :
+                  current.id === 'project-management' ? 'Project Management Meeting' :
+                  current.id === 'renovations' ? 'School Renovation' :
+                  current.id === 'financing' ? 'Lease to Purchase Financing' :
+                  'Service Image'
+                }
+                width={320}
+                height={220}
                 className="object-cover w-full h-full"
               />
             </div>
@@ -106,7 +114,7 @@ export default function ServicesPage() {
           We don't just build schools — we build the foundation for student success and community revitalization.
         </p>
       </section>
-
+      </div>
       <Footer />
     </div>
   )

@@ -24,7 +24,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const navLinkClasses = "text-white uppercase tracking-[.05em] text-sm font-medium"
+  const navLinkClasses = "text-white uppercase tracking-[.05em] text-sm font-medium transition hover:ring-2 hover:ring-white/40 hover:ring-offset-2 hover:ring-offset-[--clr-primary] rounded-full"
   const activeLinkClasses = "bg-white/20 rounded-full"
 
   return (
@@ -67,7 +67,7 @@ export default function Navbar() {
             >
               About Us <ChevronDown className="h-4 w-4" />
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-[--clr-primary] text-white border-none mt-2">
+            <DropdownMenuContent className="bg-[--clr-primary] text-white border-none mt-2 rounded-xl">
               <DropdownMenuItem asChild>
                 <Link href="/about/mission" className={navLinkClasses}>
                   Our Mission

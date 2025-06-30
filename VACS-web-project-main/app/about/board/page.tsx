@@ -1,108 +1,108 @@
 import Image from "next/image"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import { Users } from "lucide-react"
-import HeroHeader from "@/components/hero-header"
+
 export default function BoardPage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-[#f5f6f8]">
       <Navbar />
-      <HeroHeader 
-                    src="/images/Pictures/School Design.jpg"
-                    alt="school buildings"
-                    headText="The Board"
-                    subtext="Explore our completed projects and see how we've helped charter schools across the country create inspiring
-                        learning environments."/>
-      {/* Board Content */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            {/* Header */}
-            <div className="mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">Our Board of Directors</h1>
-              <p className="text-xl text-gray-600">
-                The driving force behind our mission—leaders whose expertise and vision shape the future of equitable
-                education.
-              </p>
-            </div>
+      <div className="fade-in">
+      {/* HERO/HEADER */}
+      <section className="relative h-[260px] md:h-[340px] flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('/images/Pictures/teacher-students-walking-around-school-campus-stock-photo.jpg')" }}>
+        <div className="absolute inset-0 bg-[#5f8399] opacity-25"></div>
+        <div className="relative z-10 text-center text-white px-4">
+          <h1 className="text-2xl md:text-4xl font-bold tracking-wide mb-4">The Driving Force<br />Behind Our Mission</h1>
+        </div>
+      </section>
 
-            {/* Main Board Description Box */}
-            <div
-              className="rounded-card p-8 md:p-12 mb-12 relative overflow-hidden"
-              style={{ background: "linear-gradient(135deg, #5B8BA3 0%, #4A7B8C 100%)" }}
-            >
-              <div className="flex flex-col md:flex-row items-start gap-8">
-                {/* Icon */}
-                <div className="flex-shrink-0">
-                  <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center">
-                    <Users className="w-12 h-12 text-white" />
-                  </div>
-                </div>
-
-                {/* Text Content */}
-                <div className="flex-1">
-                  <p className="mb-6 text-lg leading-relaxed text-white font-medium">
-                    The strength of Dream Schools, Inc. lies in the expertise, passion, and dedication of its Board of
-                    Directors. Our board comprises professionals from diverse backgrounds and professions, united by a
-                    shared commitment to educational equity and community development.
-                  </p>
-                  <p className="text-lg leading-relaxed text-white font-medium">
-                    Representing fields such as education, finance, law, real estate, construction, public policy, and
-                    nonprofit leadership, our board brings various perspectives and skill sets to guide our strategic
-                    direction and ensure strong governance. Their collective experience allows Dream Schools to navigate
-                    complex challenges and remain innovative in our approach to supporting public charter schools.
-                  </p>
-                </div>
+      {/* LEADERSHIP */}
+      <section className="bg-white py-12 px-4 relative overflow-x-hidden">
+        <div className="container mx-auto">
+          <h2 className="text-center text-xl font-bold mb-2 text-[#5f8399] tracking-widest">LEADERSHIP</h2>
+          <p className="text-center max-w-2xl mx-auto text-gray-700 mb-10">Together, our board members serve as stewards of our mission—to provide affordable, sustainable, and high-quality learning environments for students—ensuring that every decision supports the long-term success of the schools and communities we serve.</p>
+          <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch">
+            {/* Board Member 1 */}
+            <div className="bg-[#5f8399] rounded-xl p-8 flex-1 flex flex-col items-center text-white shadow-lg">
+              <div className="w-20 h-20 rounded-full bg-white mb-4 flex items-center justify-center overflow-hidden">
+                {/* Replace with actual image if available */}
+                <Image src="/images/board-chair-david.png" alt="Board Chair Portrait" width={80} height={80} className="object-cover rounded-full" />
               </div>
+              <div className="font-bold text-lg mb-1 tracking-wide">JONATHAN WOLF</div>
+              <div className="uppercase text-xs mb-3 tracking-widest">Board Secretary (EX OFFICIO)</div>
+              <p className="text-xs text-white/90 text-center bg-white/10 p-2 rounded">Jonathan brings over 20 years of experience in nonprofit leadership and education. His vision and commitment drive our mission forward every day.</p>
             </div>
-
-            {/* Stewards Statement */}
-            <div className="text-center mb-16">
-              <p className="text-gray-700 leading-relaxed max-w-4xl mx-auto">
-                Together, our board members serve as stewards of our mission—to provide affordable, sustainable, and
-                high-quality learning environments for students—ensuring that every decision supports the long-term
-                success of the schools and communities we serve.
-              </p>
-            </div>
-
-            {/* Our Impact */}
-            <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8 text-center text-blue-header">Our Impact</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="bg-white p-6 rounded-card shadow-sm text-center">
-                  <div className="text-4xl font-bold text-orange-primary mb-2">1M+</div>
-                  <div className="text-gray-700">Square feet of learning space</div>
-                </div>
-                <div className="bg-white p-6 rounded-card shadow-sm text-center">
-                  <div className="text-4xl font-bold text-orange-primary mb-2">10,000+</div>
-                  <div className="text-gray-700">Students served</div>
-                </div>
-                <div className="bg-white p-6 rounded-card shadow-sm text-center">
-                  <div className="text-4xl font-bold text-orange-primary mb-2">100s</div>
-                  <div className="text-gray-700">Jobs created</div>
-                </div>
+            {/* Board Member 2 */}
+            <div className="bg-[#5f8399] rounded-xl p-8 flex-1 flex flex-col items-center text-white shadow-lg">
+              <div className="w-20 h-20 rounded-full bg-white mb-4 flex items-center justify-center overflow-hidden">
+                {/* Replace with actual image if available */}
+                <Image src="/images/ceo-jonathan.png" alt="Board Secretary Portrait" width={80} height={80} className="object-cover rounded-full" />
               </div>
+              <div className="font-bold text-lg mb-1 tracking-wide">DAVID UMINSKY</div>
+              <div className="uppercase text-xs mb-3 tracking-widest">Board Chair</div>
+              <p className="text-xs text-white/90 text-center bg-white/10 p-2 rounded">David is a seasoned leader in real estate and finance, dedicated to ensuring every child has access to a quality learning environment.</p>
             </div>
+          </div>
+        </div>
+        {/* Decorative circles */}
+        <div className="hidden md:block absolute left-0 top-1/3 w-16 h-16 bg-[#eaf1f6] rounded-full opacity-60 -z-10"></div>
+        <div className="hidden md:block absolute right-0 top-1/2 w-20 h-20 bg-[#f4c8a4] rounded-full opacity-60 -z-10"></div>
+        <div className="hidden md:block absolute right-0 bottom-0 w-16 h-16 bg-[#e3a678] rounded-full opacity-60 -z-10"></div>
+      </section>
 
-            {/* Support Our Mission */}
-            <div className="bg-white rounded-card p-8 text-center">
-              <h2 className="text-2xl font-semibold mb-6 text-blue-header">Support Our Mission</h2>
-              <p className="text-gray-700 mb-6">
-                Dream Schools is a 501(c)(3) nonprofit organization. Your donation is tax-deductible to the extent
-                allowed by law.
-              </p>
-              <button
-                className="px-8 py-3 text-white font-medium rounded-card"
-                style={{ background: "linear-gradient(45deg, #E67E45, #F4A574)" }}
-              >
-                Donate Today
-              </button>
+      {/* OUR IMPACT */}
+      <section className="py-12 px-4 bg-[#5f8399] text-white">
+        <div className="container mx-auto">
+          <h3 className="text-center text-xl font-bold mb-8 tracking-widest">OUR IMPACT</h3>
+          <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
+            <div className="flex-1 text-center">
+              <div className="text-3xl font-bold text-orange-300 mb-2">10K+</div>
+              <div className="font-semibold">STUDENTS SERVED</div>
+            </div>
+            <div className="flex-1 text-center">
+              <div className="text-3xl font-bold text-blue-200 mb-2">1M+</div>
+              <div className="font-semibold">SQ FT DEVELOPED</div>
+            </div>
+            <div className="flex-1 text-center">
+              <div className="text-3xl font-bold text-[#e3a678] mb-2">25+</div>
+              <div className="font-semibold">PROJECTS COMPLETED</div>
             </div>
           </div>
         </div>
       </section>
 
+      {/* DREAM SCHOOLS */}
+      <section className="py-12 px-4 bg-[#eaf1f6]">
+        <div className="container mx-auto flex flex-col md:flex-row gap-10 items-center bg-[#5f8399] rounded-2xl p-8 md:p-12 shadow-lg">
+          <div className="flex-1">
+            <Image src="/images/board-members.png" alt="Board Members Group Photo" width={320} height={220} className="rounded-lg shadow-md mx-auto md:mx-0" />
+          </div>
+          <div className="flex-1 text-white">
+            <h4 className="text-xl font-bold mb-2">DREAM SCHOOLS</h4>
+            <p className="mb-2">The strength of Dream Schools, Inc. lies in the responsibility, expertise, and dedication of its Board of Directors. Our board comprises professionals from diverse backgrounds and professions, united by a shared commitment to educational equity and community development.</p>
+            <p className="mb-2">Representing fields such as education, finance, law, real estate, construction, public policy, and nonprofit leadership, our board brings various perspectives and skill sets to guide our strategic direction and ensure strong governance. Their collective experience allows Dream Schools to navigate complex challenges and remain innovative in our approach to supporting public charter schools.</p>
+            <p>Our board members are stewards of our mission, supporting the long-term success of the schools and communities we serve.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* SUPPORT OUR MISSION */}
+      <section className="py-12 px-4 bg-[#5f8399] text-white text-center">
+        <div className="container mx-auto">
+          <h2 className="text-xl font-bold mb-4 tracking-widest">SUPPORT OUR MISSION</h2>
+          <p className="mb-6 max-w-2xl mx-auto">Dream Schools is a 501(c)(3) nonprofit organization. Your donation is tax-deductible to the extent allowed by law.</p>
+          <button className="px-8 py-3 text-white font-bold rounded-full bg-gradient-to-r from-orange-400 to-[#e3a678] shadow-md hover:scale-105 transition-transform">DONATE TODAY</button>
+        </div>
+      </section>
+
+      {/* QUOTE/STATEMENT */}
+      <section className="py-12 px-4 bg-[#eaf1f6] text-[#5f8399] text-center">
+        <div className="container mx-auto">
+          <h3 className="text-2xl md:text-3xl font-bold mb-2">Leaders Whose Expertise And Vision<br />Shape The Future Of <span className="text-orange-400">Equitable Education.</span></h3>
+        </div>
+      </section>
+
       <Footer />
+      </div>
     </div>
   )
 }

@@ -42,7 +42,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-white text-gray-800">
       <Navbar />
 
-      <main id="main">
+      <main id="main" className="fade-in">
         {/* 1. HERO */}
         <section
           id="hero"
