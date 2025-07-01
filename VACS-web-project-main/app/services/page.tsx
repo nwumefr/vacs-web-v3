@@ -17,21 +17,21 @@ const services = [
     title: "Project Management",
     description:
       "We serve as trusted owner's reps to deliver your facility vision on time and on budget. We remove distractions so your leadership can focus on education.",
-    image: "/images/service-pm.jpg",
+    image: "/services/interior-school-classroom-wooden-floor-desks-concept-education-learning-3d-render.jpg",
   },
   {
     id: "renovations",
     title: "Renovations & Upgrades",
     description:
       "We transform outdated buildings into modern schools. From warehouses to big-box stores, we turn challenges into vibrant learning spaces.",
-    image: "/images/service-reno.jpg",
+    image: "/services/large-modern-office-building.jpg",
   },
   {
     id: "financing",
     title: "Lease-to-Purchase Financing",
     description:
       "We offer 100% financing and lease-to-own pathways so you can grow without the upfront burden. Build equity over time and eventually own your space.",
-    image: "/images/service-finance.jpg",
+    image: "/services/School Design 2 (1).jpg",
   },
 ]
 

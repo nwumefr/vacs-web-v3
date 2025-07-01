@@ -42,7 +42,7 @@ export default function MissionPage() {
               </Button>
             </div>
           </div>
-          <Image src="/images/facility-design.png" alt="School Building Exterior" width={600} height={400} className="rounded-lg shadow-lg" />
+          <Image src="/mission/unsplash_bgQgAKagQB4.png" alt="School Building Exterior" width={600} height={400} className="rounded-lg shadow-lg" />
         </div>
       </section>
 
@@ -70,7 +70,7 @@ export default function MissionPage() {
       {/* OUR STORY */}
       <section id="story" className="bg-white py-16 px-4">
         <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <Image src="/images/real-estate.png" alt="Construction Site" width={600} height={400} className="rounded-lg shadow-lg order-2 md:order-1" />
+          <Image src="/mission/unsplash_DJOLSUP2Uqg.png" alt="Construction Site" width={600} height={400} className="rounded-lg shadow-lg order-2 md:order-1" />
           <div className="order-1 md:order-2">
             <h3 className="text-xl font-bold mb-2 text-blue-500 tracking-widest">OUR STORY</h3>
             <p className="text-lg text-gray-700 mb-4">Since our founding, Dream Schools has partnered with communities to create inspiring, functional, and sustainable learning environments. Our team brings decades of experience in education, real estate, and construction to every project.</p>
@@ -100,8 +100,8 @@ They're launchpads for academic excellence and community renewal. Dream Schools 
 Over the years, we've helped countless schools grow from dream to reality—turning vacant lots and empty buildings into vibrant learning centers. Along the way, we've seen firsthand how excellent school facilities can breathe new life into neighborhoods and inspire communities.</p>
           </div>
           <div className="flex flex-col gap-6">
-            <Image src="/images/innovation-classroom.png" alt="Students in Classroom" width={600} height={200} className="rounded-lg shadow-lg" />
-            <Image src="/images/innovation-lab.png" alt="Science Lab" width={600} height={200} className="rounded-lg shadow-lg" />
+            <Image src="/mission/unsplash_RpHVdsmPYc0.png" alt="Students in Classroom" width={600} height={200} className="rounded-lg shadow-lg" />
+            <Image src="/mission/unsplash_VLPUm5wP5Z0.png" alt="Science Lab" width={600} height={200} className="rounded-lg shadow-lg" />
           </div>
         </div>
       </section>

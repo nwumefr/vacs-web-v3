@@ -181,7 +181,7 @@ export default function Home() {
           <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Image
-                src="/images/educational-environment.png"
+                src="/home/unsplash_8LITuYkZRIo.png"
                 alt="Modern school classroom with flexible seating"
                 width={600}
                 height={400}

@@ -8,7 +8,8 @@ export default function BoardPage() {
       <Navbar />
       <div className="fade-in">
       {/* HERO/HEADER */}
-      <section className="relative h-[260px] md:h-[340px] flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('/images/Pictures/teacher-students-walking-around-school-campus-stock-photo.jpg')" }}>
+      <section className="relative h-[260px] md:h-[340px] flex items-center justify-center bg-cover bg-center" 
+      style={{ backgroundImage: "url('/board/unsplash_5pU5P9NngVo.png')" }}>
         <div className="absolute inset-0 bg-[#5f8399] opacity-25"></div>
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-2xl md:text-4xl font-bold tracking-wide mb-4">The Driving Force<br />Behind Our Mission</h1>
@@ -74,7 +75,7 @@ export default function BoardPage() {
       <section className="py-12 px-4 bg-[#eaf1f6]">
         <div className="container mx-auto flex flex-col md:flex-row gap-10 items-center bg-[#5f8399] rounded-2xl p-8 md:p-12 shadow-lg">
           <div className="flex-1">
-            <Image src="/images/board-members.png" alt="Board Members Group Photo" width={320} height={220} className="rounded-lg shadow-md mx-auto md:mx-0" />
+            <Image src="/board/unsplash_uOhBxB23Wao.png" alt="Board Members Group Photo" width={320} height={220} className="rounded-lg shadow-md mx-auto md:mx-0" />
           </div>
           <div className="flex-1 text-white">
             <h4 className="text-xl font-bold mb-2">DREAM SCHOOLS</h4>
