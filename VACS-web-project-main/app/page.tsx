@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -9,9 +10,10 @@ import Building from "lucide-react/dist/esm/icons/building"
 import BookOpen from "lucide-react/dist/esm/icons/book-open"
 import Home from "lucide-react/dist/esm/icons/home"
 import Link from "next/link"
+import { useState } from "react"
 
 // Helper component for decorative circles
-const DecorativeCircle = ({ className, size, opacity }) => (
+const DecorativeCircle = ({ className, size, opacity }: { className: string; size: number; opacity: number }) => (
   <div
     className={`absolute rounded-full ${className}`}
     style={{
@@ -24,7 +26,7 @@ const DecorativeCircle = ({ className, size, opacity }) => (
 )
 
 // Icon resolver component to fix recursion error
-const ServiceIcon = ({ name, ...props }) => {
+const ServiceIcon = ({ name, ...props }: { name: string; [key: string]: any }) => {
   switch (name) {
     case "building":
       return <Building {...props} />
@@ -38,6 +40,61 @@ const ServiceIcon = ({ name, ...props }) => {
 }
 
 export default function Home() {
+  // Form state
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    phone: "",
+    organization: "",
+    email: "",
+    message: "",
+  })
+
+  // Handle form input changes
+  const handleInputChange = (field: string, value: string) => {
+    setFormData(prev => ({
+      ...prev,
+      [field]: value
+    }))
+  }
+
+  // Handle form submission with mailto
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    
+    // Construct email body
+    const emailBody = `
+New Contact Form Submission from VACS Website
+
+Name: ${formData.firstName} ${formData.lastName}
+Phone: ${formData.phone}
+Organization: ${formData.organization}
+Email: ${formData.email}
+
+Message:
+${formData.message}
+
+---
+This message was sent from the VACS website contact form.
+    `.trim()
+
+    // Construct mailto URL
+    const mailtoUrl = `mailto:chibuikenwume@gmail.com?subject=New Contact Form Submission - ${formData.firstName} ${formData.lastName}&body=${encodeURIComponent(emailBody)}`
+    
+    // Open email client
+    window.open(mailtoUrl, '_blank')
+    
+    // Optional: Clear form after submission
+    setFormData({
+      firstName: "",
+      lastName: "",
+      phone: "",
+      organization: "",
+      email: "",
+      message: "",
+    })
+  }
+
   return (
     <div className="flex flex-col min-h-screen bg-white text-gray-800">
       <Navbar />
@@ -53,7 +110,7 @@ export default function Home() {
           <div className="relative container mx-auto px-4 z-10">
             <div
               className="bg-primary/70 text-white p-12 rounded-[24px] max-w-lg"
-              style={{ background: "rgba(95,131,153,.78)" }}
+              style={{ background: "rgba(43,76,122,0.78)" }}
             >
               <h1 className="text-[clamp(2rem,6vw,3.25rem)] leading-[1.15] font-display mb-6">
                 Building <span className="text-[--clr-accent]">dreams</span>, one school at a time
@@ -127,7 +184,7 @@ export default function Home() {
                   description:
                     "We design and build charter school facilities from the ground up or renovate existing structures, always tailored to your educational mission.",
                   icon: "building",
-                  color: "#5f8399",
+                  color: "#2b4c7a",
                   image: "/home/unsplash_cXUOQWdRV4I.png",
                 },
                 {
@@ -135,7 +192,7 @@ export default function Home() {
                   description:
                     "We believe learning environments should reflect and support the needs of students and educators. Every project is driven by purpose and equity.",
                   icon: "book-open",
-                  color: "#dc824f",
+                  color: "#4a6ba1",
                   image: "/home/unsplash_LvK8VKcrRjA.png",
                 },
                 {
@@ -176,7 +233,7 @@ export default function Home() {
         <section
           id="the-dream"
           className="py-24 text-white"
-          style={{ background: "linear-gradient(90deg, #5f8399 0%, #7b9bb0 100%)" }}
+          style={{ background: "linear-gradient(90deg, #2b4c7a 0%, #4a6ba1 100%)" }}
         >
           <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -220,18 +277,55 @@ export default function Home() {
               </p>
             </div>
             <div className="bg-[--clr-primary] p-8 rounded-2xl">
-              <form action="#" className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <Input placeholder="First Name" className="bg-white rounded-lg px-4 py-3" />
-                <Input placeholder="Last Name" className="bg-white rounded-lg px-4 py-3" />
-                <Input placeholder="Phone Number" className="bg-white rounded-lg px-4 py-3" />
-                <Input placeholder="Organization" className="bg-white rounded-lg px-4 py-3" />
-                <Input placeholder="Email Address" className="md:col-span-2 bg-white rounded-lg px-4 py-3" />
-                <Textarea placeholder="Your Message" className="md:col-span-2 bg-white rounded-lg px-4 py-3" />
+              <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <Input 
+                  placeholder="First Name" 
+                  className="bg-white rounded-lg px-4 py-3" 
+                  value={formData.firstName}
+                  onChange={(e) => handleInputChange('firstName', e.target.value)}
+                  required
+                />
+                <Input 
+                  placeholder="Last Name" 
+                  className="bg-white rounded-lg px-4 py-3" 
+                  value={formData.lastName}
+                  onChange={(e) => handleInputChange('lastName', e.target.value)}
+                  required
+                />
+                <Input 
+                  placeholder="Phone Number" 
+                  className="bg-white rounded-lg px-4 py-3" 
+                  value={formData.phone}
+                  onChange={(e) => handleInputChange('phone', e.target.value)}
+                  required
+                />
+                <Input 
+                  placeholder="Organization" 
+                  className="bg-white rounded-lg px-4 py-3" 
+                  value={formData.organization}
+                  onChange={(e) => handleInputChange('organization', e.target.value)}
+                  required
+                />
+                <Input 
+                  placeholder="Email Address" 
+                  className="md:col-span-2 bg-white rounded-lg px-4 py-3" 
+                  type="email"
+                  value={formData.email}
+                  onChange={(e) => handleInputChange('email', e.target.value)}
+                  required
+                />
+                <Textarea 
+                  placeholder="Your Message" 
+                  className="md:col-span-2 bg-white rounded-lg px-4 py-3" 
+                  value={formData.message}
+                  onChange={(e) => handleInputChange('message', e.target.value)}
+                  required
+                />
                 <Button
                   type="submit"
                   className="md:col-span-2 bg-[--clr-accent] text-white font-bold uppercase rounded-full w-full py-3"
                 >
-                  Submit
+                  Send Email
                 </Button>
               </form>
             </div>

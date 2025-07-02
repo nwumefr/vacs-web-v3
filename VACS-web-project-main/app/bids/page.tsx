@@ -21,12 +21,12 @@ export default function BidsPage() {
       {/* Open Opportunities Section */}
       <section className="py-12 px-4 bg-[#eaf1f6]">
         <div className="max-w-3xl mx-auto w-full">
-          <h2 className="text-xl font-bold text-center text-[#5f8399] mb-8 tracking-wide">OPEN OPPORTUNITIES</h2>
+          <h2 className="text-xl font-bold text-center text-[#2b4c7a] mb-8 tracking-wide">OPEN OPPORTUNITIES</h2>
           <div className="space-y-6">
             {/* Opportunity 1 */}
             <div className="bg-white rounded shadow p-6 flex flex-col md:flex-row md:items-center justify-between border-t-4 border-[#f4c8a4]">
               <div>
-                <h3 className="font-bold text-lg text-[#5f8399]">General Contractor Services – Innovation Academy Phase 2</h3>
+                <h3 className="font-bold text-lg text-[#2b4c7a]">General Contractor Services – Innovation Academy Phase 2</h3>
                 <p className="text-gray-700 text-sm mt-1 mb-2 max-w-2xl">
                   Dream Schools is seeking qualified general contractors for Phase 2 of the Innovation Academy project in Philadelphia, PA. The project involves the renovation of 15,000 square feet of existing space to create additional classrooms, a media center, and administrative offices.
                 </p>
@@ -40,9 +40,9 @@ export default function BidsPage() {
               </div>
             </div>
             {/* Opportunity 2 */}
-            <div className="bg-white rounded shadow p-6 flex flex-col md:flex-row md:items-center justify-between border-t-4 border-[#5f8399]">
+            <div className="bg-white rounded shadow p-6 flex flex-col md:flex-row md:items-center justify-between border-t-4 border-[#2b4c7a]">
               <div>
-                <h3 className="font-bold text-lg text-[#5f8399]">Architectural Services – Horizon Charter School Expansion</h3>
+                <h3 className="font-bold text-lg text-[#2b4c7a]">Architectural Services – Horizon Charter School Expansion</h3>
                 <p className="text-gray-700 text-sm mt-1 mb-2 max-w-2xl">
                   Dream Schools is seeking architectural services for the expansion of Horizon Charter School in Atlanta, GA. The project involves designing a 20,000 square foot addition to the existing facility to accommodate growing enrollment.
                 </p>
@@ -58,7 +58,7 @@ export default function BidsPage() {
             {/* Opportunity 3 */}
             <div className="bg-white rounded shadow p-6 flex flex-col md:flex-row md:items-center justify-between border-t-4 border-[#e3a678]">
               <div>
-                <h3 className="font-bold text-lg text-[#5f8399]">MEP Engineering Services – Multiple Projects</h3>
+                <h3 className="font-bold text-lg text-[#2b4c7a]">MEP Engineering Services – Multiple Projects</h3>
                 <p className="text-gray-700 text-sm mt-1 mb-2 max-w-2xl">
                   Dream Schools is seeking MEP engineering services for a series of upcoming charter school projects. The selected firm(s) will provide design and consulting services for new construction and renovation projects across multiple states.
                 </p>
@@ -78,9 +78,9 @@ export default function BidsPage() {
       {/* Procurement Policy Section */}
       <section className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto w-full">
-          <h2 className="text-xl font-bold text-center mb-6 tracking-wide text-[#5f8399]">OUR PROCUREMENT POLICY</h2>
+          <h2 className="text-xl font-bold text-center mb-6 tracking-wide text-[#2b4c7a]">OUR PROCUREMENT POLICY</h2>
           <div className="text-white p-6 text-sm rounded-2xl shadow text-center font-medium"
-            style={{ background: "linear-gradient(90deg,rgba(97, 144, 170, 1) 0%, rgba(56, 95, 118, 1) 100%)" }}>
+            style={{ background: "linear-gradient(90deg,#2b4c7a 0%, #4a6ba1 100%)" }}>
             Dream Schools is committed to fair, open, and competitive procurement processes. We seek to work with diverse vendors and suppliers who share our commitment to quality, sustainability, and innovation.<br /><br />
             We encourage proposals and involvement from minority-owned businesses, women-owned businesses, and other historically disadvantaged and underutilized vendors. We strictly conduct business with honesty, integrity, and objectivity, all protected within written contractual relationships with our partners.<br /><br />
             For more information, or to be added to our vendor database, please contact <span className="underline">procurement@dream-schools.org</span>.

@@ -17,7 +17,7 @@ export default function AboutPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-blue-header">About Us</h1>
             <div
               className="w-24 h-1 rounded-full mx-auto mb-8"
-              style={{ background: "linear-gradient(45deg, #5B8BA3, #E67E45)" }}
+              style={{ background: "linear-gradient(45deg, #2b4c7a, #E67E45)" }}
             ></div>
             <p className="text-xl text-blue-primary max-w-3xl mx-auto">
               Building dreams, strengthening communities, and empowering student success since 2006.
@@ -42,7 +42,7 @@ export default function AboutPage() {
                     <div>
                       <Card
                         className="rounded-card shadow-card p-8 md:p-12 text-center mb-8"
-                        style={{ background: "linear-gradient(135deg, #5B8BA3 0%, #7BA4BD 100%)" }}
+                        style={{ background: "linear-gradient(135deg, #2b4c7a 0%, #4a6ba1 100%)" }}
                       >
                         <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
                           <Target className="w-8 h-8 text-blue-header" />
@@ -77,7 +77,7 @@ export default function AboutPage() {
                       <h3 className="text-2xl font-semibold mb-6 text-blue-header">Our Story</h3>
                       <Card
                         className="rounded-card shadow-card p-8 md:p-12"
-                        style={{ background: "linear-gradient(135deg, #5B8BA3 0%, #7BA4BD 100%)" }}
+                        style={{ background: "linear-gradient(135deg, #2b4c7a 0%, #4a6ba1 100%)" }}
                       >
                         <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6">
                           <BookOpenIcon className="w-8 h-8 text-blue-header" />
@@ -111,7 +111,7 @@ export default function AboutPage() {
                         <Card className="bg-white rounded-card shadow-card card-hover p-8">
                           <div
                             className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6"
-                            style={{ background: "linear-gradient(135deg, #5B8BA3 0%, #7BA4BD 100%)" }}
+                            style={{ background: "linear-gradient(135deg, #2b4c7a 0%, #4a6ba1 100%)" }}
                           >
                             <HomeIcon className="w-8 h-8 text-white" />
                           </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
                         <Card className="bg-white rounded-card shadow-card card-hover p-8">
                           <div
                             className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6"
-                            style={{ background: "linear-gradient(135deg, #5B8BA3 0%, #7BA4BD 100%)" }}
+                            style={{ background: "linear-gradient(135deg, #2b4c7a 0%, #4a6ba1 100%)" }}
                           >
                             <BuildingIcon className="w-8 h-8 text-white" />
                           </div>

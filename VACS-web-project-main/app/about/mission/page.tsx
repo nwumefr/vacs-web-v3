@@ -80,7 +80,7 @@ export default function MissionPage() {
       </section>
 
       {/* BOLD STATEMENT */}
-      <section className="py-12 px-4 bg-[#5f8399] text-white text-center">
+      <section className="py-12 px-4 bg-[#2b4c7a] text-white text-center">
         <div className="container mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">AT DREAM SCHOOLS, WE'RE NOT JUST BUILDING SCHOOLS.<br />WE'RE BUILDING</h2>
           <div className="text-3xl md:text-5xl font-extrabold text-orange-300 tracking-wider mb-2">EQUITY, OPPORTUNITY, & DREAMS</div>

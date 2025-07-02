@@ -38,6 +38,18 @@ const portfolios = [
   },
 ]
 
+const imageUrls = [
+  '/images/Pictures/room-interior-design.jpg',
+  '/images/Pictures/large-modern-office-building.jpg',
+  '/images/Pictures/diverse-education-shoot.jpg',
+  '/images/Pictures/interior-school-classroom-wooden-floor-desks-concept-education-learning-3d-render.jpg',
+  '/images/Pictures/pupils-primary-school-girls-with-backpacks-near-school-outdoors-beginning-lessons-first-day-fall.jpg',
+  '/images/Pictures/School Design 2.jpg',
+  '/images/Pictures/School Design.jpg',
+  '/images/Pictures/schoolgirl-with-notebook-her-hands-sunset-background-school-goes-school.jpg',
+  '/images/Pictures/teacher-students-walking-around-school-campus-stock-photo.jpg',
+]
+
 export default function PortfolioPage() {
   return (
     <div className="relative flex flex-col min-h-screen">
@@ -52,7 +64,7 @@ export default function PortfolioPage() {
         <div className="z-10 px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">OUR WORK</h1>
           <p className="text-lg max-w-xl mx-auto">
-            Explore our completed projects to see how we’ve helped charter schools create inspiring learning environments.
+            Explore our completed projects to see how we've helped charter schools create inspiring learning environments.
           </p>
         </div>
       </section>
@@ -80,17 +92,17 @@ export default function PortfolioPage() {
                     </ul>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-gray-300 h-[150px] rounded-md" />
-                    <div className="bg-gray-300 h-[150px] rounded-md" />
-                    <div className="col-span-2 bg-gray-300 h-[200px] rounded-md" />
+                    <div className="h-[150px] rounded-md bg-cover bg-center" style={{backgroundImage: `url('${imageUrls[index*3]}')`}} />
+                    <div className="h-[150px] rounded-md bg-cover bg-center" style={{backgroundImage: `url('${imageUrls[index*3+1]}')`}} />
+                    <div className="col-span-2 h-[200px] rounded-md bg-cover bg-center" style={{backgroundImage: `url('${imageUrls[index*3+2]}')`}} />
                   </div>
                 </>
               ) : (
                 <>
                   <div className="grid grid-cols-2 gap-4 order-2 md:order-1">
-                    <div className="bg-gray-300 h-[150px] rounded-md" />
-                    <div className="bg-gray-300 h-[150px] rounded-md" />
-                    <div className="col-span-2 bg-gray-300 h-[200px] rounded-md" />
+                    <div className="h-[150px] rounded-md bg-cover bg-center" style={{backgroundImage: `url('${imageUrls[index*3]}')`}} />
+                    <div className="h-[150px] rounded-md bg-cover bg-center" style={{backgroundImage: `url('${imageUrls[index*3+1]}')`}} />
+                    <div className="col-span-2 h-[200px] rounded-md bg-cover bg-center" style={{backgroundImage: `url('${imageUrls[index*3+2]}')`}} />
                   </div>
                   <div className="order-1 md:order-2">
                     <h2 className="text-2xl font-bold text-orange-500 mb-2">{project.name}</h2>

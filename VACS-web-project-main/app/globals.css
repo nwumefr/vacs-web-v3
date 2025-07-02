@@ -4,9 +4,9 @@
 
 @layer base {
   :root {
-    --clr-primary: #5f8399; /* slate blue */
+    --clr-primary: #2b4c7a; /* new dark blue */
     --clr-accent: #dc824f; /* warm orange */
-    --clr-tint-blue: #d4e0e8;
+    --clr-tint-blue: #4a6ba1; /* slightly lighter tint of #2b4c7a */
     --clr-tint-peach: #f1c9c3;
     --clr-tint-sand: #e6c19b;
     /* Font variables are set in layout.tsx */

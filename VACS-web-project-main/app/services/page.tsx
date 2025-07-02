@@ -46,9 +46,9 @@ export default function ServicesPage() {
       {/* Hero Section */}
       <section className="relative h-[260px] md:h-[340px] flex items-center justify-center bg-cover bg-center" 
         style={{ backgroundImage: `url('/services/unsplash_80zZ1s24Nag.png')` }}>
-        <div className="absolute inset-0 bg-[#5f8399] opacity-25" />
+        <div className="absolute inset-0 bg-[#2b4c7a] opacity-25" />
         <div className="relative z-10 w-full flex flex-col items-center justify-center px-4">
-          <div className="bg-[#3d5e72]/90 rounded-xl p-6 max-w-xl mx-auto shadow-lg">
+          <div className="bg-[#2b4c7a]/90 rounded-xl p-6 max-w-xl mx-auto shadow-lg">
             <h1 className="text-2xl md:text-3xl font-bold mb-2 text-white">WHAT WE DO</h1>
             <p className="text-white text-base md:text-lg">
               At Dream Schools, we believe that excellent facilities help create great opportunities.
