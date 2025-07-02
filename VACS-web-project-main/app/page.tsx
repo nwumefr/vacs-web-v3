@@ -79,7 +79,7 @@ This message was sent from the VACS website contact form.
     `.trim()
 
     // Construct mailto URL
-    const mailtoUrl = `mailto:chibuikenwume@gmail.com?subject=New Contact Form Submission - ${formData.firstName} ${formData.lastName}&body=${encodeURIComponent(emailBody)}`
+    const mailtoUrl = `mailto:info@dreamschoolsinc.org?subject=New Contact Form Submission - ${formData.firstName} ${formData.lastName}&body=${encodeURIComponent(emailBody)}`
     
     // Open email client
     window.open(mailtoUrl, '_blank')
