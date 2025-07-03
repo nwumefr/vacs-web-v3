@@ -49,7 +49,7 @@ export default function ServicesPage() {
         <div className="absolute inset-0 bg-[#2b4c7a] opacity-25" />
         <div className="relative z-10 w-full flex flex-col items-center justify-center px-4">
           <div className="bg-[#2b4c7a]/90 rounded-xl p-6 max-w-xl mx-auto shadow-lg">
-            <h1 className="text-2xl md:text-3xl font-bold mb-2 text-white">WHAT WE DO</h1>
+            <h1 className="text-2xl md:text-3xl font-display font-bold mb-2 text-white">WHAT WE DO</h1>
             <p className="text-white text-base md:text-lg">
               At Dream Schools, we believe that excellent facilities help create great opportunities.
             </p>
@@ -59,7 +59,7 @@ export default function ServicesPage() {
 
       {/* Tabs */}
       <section className="py-8 px-4 border-b">
-        <h2 className="text-3xl font-bold text-center text-#5f8399 mb-6">OUR SERVICES</h2>
+        <h2 className="text-3xl font-display font-bold text-center text-#5f8399 mb-6">OUR SERVICES</h2>
         <div className="flex flex-wrap justify-center gap-4" >
           {services.map((service) => (
             <button
@@ -98,7 +98,7 @@ export default function ServicesPage() {
               />
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md">
-              <h3 className="text-2xl font-bold mb-4">{current.title}</h3>
+              <h3 className="text-2xl font-display font-bold mb-4">{current.title}</h3>
               <GradientLine
               c1='#f4c8a4'
               c2='#e3a678'></GradientLine>
@@ -110,7 +110,7 @@ export default function ServicesPage() {
 
       {/* Quote Section */}
       <section className=" text-white text-center py-12 px-4" style={{background:"linear-gradient(90deg,#f4c8a4 0%,#e3a678 100%)"}}>
-        <p className="text-2xl mb-9 font-medium">
+        <p className="text-2xl mb-9 font-display font-medium">
           We don't just build schools — we build the foundation for student success and community revitalization.
         </p>
       </section>

@@ -14,7 +14,7 @@ export default function AboutPage() {
       <section className="relative py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-blue-header">About Us</h1>
+            <h1 className="text-4xl md:text-5xl font-display font-bold mb-6 text-blue-header">About Us</h1>
             <div
               className="w-24 h-1 rounded-full mx-auto mb-8"
               style={{ background: "linear-gradient(45deg, #2b4c7a, #E67E45)" }}
@@ -33,7 +33,7 @@ export default function AboutPage() {
             <Accordion type="single" collapsible className="w-full space-y-6">
               {/* Section 1: Our Mission & Story */}
               <AccordionItem value="mission" className="border-none">
-                <AccordionTrigger className="bg-white rounded-t-xl px-8 py-6 text-2xl font-semibold text-blue-header hover:no-underline">
+                <AccordionTrigger className="bg-white rounded-t-xl px-8 py-6 text-2xl font-display font-semibold text-blue-header hover:no-underline">
                   Our Mission
                 </AccordionTrigger>
                 <AccordionContent className="bg-white rounded-b-xl px-8 pt-2 pb-8 mt-0">
@@ -74,7 +74,7 @@ export default function AboutPage() {
 
                     {/* Our Story */}
                     <div>
-                      <h3 className="text-2xl font-semibold mb-6 text-blue-header">Our Story</h3>
+                      <h3 className="text-2xl font-display font-semibold mb-6 text-blue-header">Our Story</h3>
                       <Card
                         className="rounded-card shadow-card p-8 md:p-12"
                         style={{ background: "linear-gradient(135deg, #2b4c7a 0%, #4a6ba1 100%)" }}
@@ -106,7 +106,7 @@ export default function AboutPage() {
 
                     {/* What We Do */}
                     <div>
-                      <h3 className="text-2xl font-semibold mb-6 text-blue-header">What We Do</h3>
+                      <h3 className="text-2xl font-display font-semibold mb-6 text-blue-header">What We Do</h3>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <Card className="bg-white rounded-card shadow-card card-hover p-8">
                           <div
@@ -115,7 +115,7 @@ export default function AboutPage() {
                           >
                             <HomeIcon className="w-8 h-8 text-white" />
                           </div>
-                          <h3 className="text-xl font-medium mb-4 text-blue-header">Real Estate Development</h3>
+                          <h3 className="text-xl font-display font-medium mb-4 text-blue-header">Real Estate Development</h3>
                           <p className="text-base text-gray-dark leading-relaxed">
                             From concept to completion, we manage every phase of facility development, including site
                             selection, zoning, design, construction, and occupancy.
@@ -129,7 +129,7 @@ export default function AboutPage() {
                           >
                             <BuildingIcon className="w-8 h-8 text-white" />
                           </div>
-                          <h3 className="text-xl font-medium mb-4 text-blue-header">Renovations & Financing</h3>
+                          <h3 className="text-xl font-display font-medium mb-4 text-blue-header">Renovations & Financing</h3>
                           <p className="text-base text-gray-dark leading-relaxed">
                             We specialize in reimagining spaces and offer 100% financing for charter school facility
                             projects, providing flexible lease-to-own pathways aligned with your growth.
@@ -139,12 +139,12 @@ export default function AboutPage() {
                     </div>
 
                     <div className="text-center">
-                      <div className="text-2xl md:text-3xl font-semibold text-blue-header mb-4">
+                      <div className="text-2xl md:text-3xl font-display font-semibold text-blue-header mb-4">
                         At Dream Schools, we're not just building schools.
                       </div>
-                      <div className="text-xl text-orange-primary font-medium mb-2">We're building equity.</div>
-                      <div className="text-xl text-orange-primary font-medium mb-2">We're building opportunity.</div>
-                      <div className="text-xl text-orange-primary font-medium">We're building dreams.</div>
+                      <div className="text-xl font-display text-orange-primary font-medium mb-2">We're building equity.</div>
+                      <div className="text-xl font-display text-orange-primary font-medium mb-2">We're building opportunity.</div>
+                      <div className="text-xl font-display text-orange-primary font-medium">We're building dreams.</div>
                     </div>
                   </div>
                 </AccordionContent>
@@ -152,7 +152,7 @@ export default function AboutPage() {
 
               {/* Section 2: Our Board of Directors */}
               <AccordionItem value="board" className="border-none">
-                <AccordionTrigger className="bg-white rounded-t-xl px-8 py-6 text-2xl font-semibold text-blue-header hover:no-underline">
+                <AccordionTrigger className="bg-white rounded-t-xl px-8 py-6 text-2xl font-display font-semibold text-blue-header hover:no-underline">
                   Our Board of Directors
                 </AccordionTrigger>
                 <AccordionContent className="bg-white rounded-b-xl px-8 pt-2 pb-8 mt-0">
@@ -197,7 +197,7 @@ export default function AboutPage() {
 
                     {/* Our Impact */}
                     <div>
-                      <h3 className="text-2xl font-semibold mb-6 text-center text-blue-header">Our Impact</h3>
+                      <h3 className="text-2xl font-display font-semibold mb-6 text-center text-blue-header">Our Impact</h3>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div className="bg-blue-50 p-6 rounded-lg shadow-sm text-center">
                           <div className="text-3xl font-bold text-blue-600 mb-2">1M+</div>

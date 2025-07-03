@@ -11,8 +11,8 @@ export default function BoardPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold mb-4 text-center">Our Board of Directors</h1>
-            <h2 className="text-xl text-gray-700 mb-12 text-center">
+            <h1 className="text-4xl font-display font-bold mb-4 text-center">Our Board of Directors</h1>
+            <h2 className="text-xl font-display text-gray-700 mb-12 text-center">
               The driving force behind our mission—leaders whose expertise and vision shape the future of equitable
               education.
             </h2>

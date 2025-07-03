@@ -62,7 +62,7 @@ export default function PortfolioPage() {
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="z-10 px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">OUR WORK</h1>
+          <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">OUR WORK</h1>
           <p className="text-lg max-w-xl mx-auto">
             Explore our completed projects to see how we've helped charter schools create inspiring learning environments.
           </p>
@@ -83,7 +83,7 @@ export default function PortfolioPage() {
               {index % 2 === 0 ? (
                 <>
                   <div>
-                    <h2 className="text-2xl font-bold text-orange-500 mb-2">{project.name}</h2>
+                    <h2 className="text-2xl font-display font-bold text-orange-500 mb-2">{project.name}</h2>
                     <p className="text-sm text-gray-500 mb-4">{project.location}</p>
                     <ul className="list-disc list-inside text-gray-700 space-y-2">
                       {project.points.map((point, i) => (
@@ -105,7 +105,7 @@ export default function PortfolioPage() {
                     <div className="col-span-2 h-[200px] rounded-md bg-cover bg-center" style={{backgroundImage: `url('${imageUrls[index*3+2]}')`}} />
                   </div>
                   <div className="order-1 md:order-2">
-                    <h2 className="text-2xl font-bold text-orange-500 mb-2">{project.name}</h2>
+                    <h2 className="text-2xl font-display font-bold text-orange-500 mb-2">{project.name}</h2>
                     <p className="text-sm text-gray-500 mb-4">{project.location}</p>
                     <ul className="list-disc list-inside text-gray-700 space-y-2">
                       {project.points.map((point, i) => (
