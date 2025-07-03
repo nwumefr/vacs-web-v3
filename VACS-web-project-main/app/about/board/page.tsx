@@ -8,7 +8,7 @@ export default function BoardPage() {
       <Navbar />
       {/* HERO */}
       <section className="relative h-[260px] md:h-[320px] flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('/images/Pictures/teacher-students-walking-around-school-campus-stock-photo.jpg')" }}>
-        <div className="absolute inset-0 bg-[#5B8BA3] opacity-70"></div>
+        <div className="absolute inset-0 bg-[#5B8BA3] opacity-25"></div>
         <div className="relative z-10 text-center">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">The Driving Force<br />Behind Our Mission</h1>
         </div>
