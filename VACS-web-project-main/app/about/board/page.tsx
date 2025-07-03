@@ -22,46 +22,6 @@ export default function BoardPage() {
         <div className="absolute right-0 top-[1000px] w-24 h-24 bg-[#F4C8A4] opacity-60 rounded-full -z-1"></div>
       </div>
 
-      {/* LEADERSHIP */}
-      <section className="relative py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-center text-[#2b4c7a] text-xl font-display font-bold tracking-[0.2em] mb-4">LEADERSHIP</h2>
-          <p className="text-center max-w-2xl mx-auto text-[#2b4c7a] mb-12 text-base md:text-lg">Together, our board members serve as stewards of our mission—to provide affordable, sustainable, and high-quality learning environments for students—ensuring that every decision supports the long-term success of the schools and communities we serve.</p>
-          <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch">
-            {/* Jonathan Wolf */}
-            <div className="bg-[#2b4c7a] rounded-xl w-[340px] h-[500px] p-6 flex flex-col justify-between items-center shadow-lg">
-              <div className="flex flex-col items-center w-full">
-                <div className="w-32 h-32 bg-white rounded-full mb-3 flex items-center justify-center overflow-hidden">
-                  {/* <Image src="/placeholder-user.jpg" alt="Jonathan Wolf" width={96} height={96} className="rounded-full object-cover" /> */}
-                </div>
-                <div className="text-center w-full">
-                  <div className="text-white text-lg font-display font-bold mb-1 tracking-wide uppercase">JONATHAN WOLF</div>
-                  <div className="text-white italic text-sm font-semibold mb-4">CHIEF EXECUTIVE OFFICER</div>
-                </div>
-              </div>
-              <div className="bg-white rounded-lg p-3 text-[#2b4c7a] text-xs font-medium w-full h-[160px] flex items-center justify-center text-center">
-                Over 20 years of experience in real estate development, finance, and management. Prior to joining Dream Schools, Jonathan was a Managing Director at a real estate private equity firm. He holds an MBA from Harvard Business School and a BS in Economics from the University of Pennsylvania.
-              </div>
-            </div>
-            {/* David Uminsky */}
-            <div className="bg-[#2b4c7a] rounded-xl w-[340px] h-[500px] p-6 flex flex-col justify-between items-center shadow-lg">
-              <div className="flex flex-col items-center w-full">
-                <div className="w-32 h-32 bg-white rounded-full mb-3 flex items-center justify-center overflow-hidden">
-                  {/* <Image src="/placeholder-user.jpg" alt="David Uminsky" width={96} height={96} className="rounded-full object-cover" /> */}
-                </div>
-                <div className="text-center w-full">
-                  <div className="text-white text-lg font-display font-bold mb-1 tracking-wide uppercase">DAVID UMINSKY</div>
-                  <div className="text-white italic text-sm font-semibold mb-4">BOARD CHAIR</div>
-                </div>
-              </div>
-              <div className="bg-white rounded-lg p-3 text-[#2b4c7a] text-xs font-medium w-full h-[160px] flex items-center justify-center text-center">
-                Professor of Mathematics and Data Science at the University of San Francisco and Director of the Data Institute. David Uminsky holds a PhD in Mathematics from UC Berkeley and a BS in Mathematics from the University of Chicago.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Gradient background wrapper for impact to support */}
       <div className="bg-gradient-to-b from-[#4a6ba1] to-[#1e3552]">
         {/* OUR IMPACT */}

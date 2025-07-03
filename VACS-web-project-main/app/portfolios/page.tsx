@@ -60,7 +60,7 @@ export default function PortfolioPage() {
         className="relative h-[60vh] bg-cover bg-center flex items-center justify-center text-white text-center"
         style={{ backgroundImage: "url('/portfolios/image 1.png')" }}
       >
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-[#2b4c7a] opacity-50" />
         <div className="z-10 px-4">
           <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">OUR WORK</h1>
           <p className="text-lg max-w-xl mx-auto">
