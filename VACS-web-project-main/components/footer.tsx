@@ -18,6 +18,17 @@ const SocialIcon = ({ href, icon: Icon }) => (
   </a>
 )
 
+
+const IgIcon = ({ href, icon: Icon }) => (
+  <a
+    href={href}
+    className="text-white transition-transform hover:scale-110 hover:[filter:drop-shadow(0_0_6px_#dc824faa)]"
+    // aria-label={Icon.displayName}
+  >
+    <Instagram size={40}/>
+  </a>
+)
+
 export default function Footer() {
   return (
     <footer className="bg-[--clr-primary] text-white py-16">
@@ -32,7 +43,7 @@ export default function Footer() {
             <div className="flex space-x-4">
               <SocialIcon href="#" icon={Facebook} />
               <SocialIcon href="#" icon={Twitter} />
-              <SocialIcon href="#" icon={Instagram} />
+              <IgIcon href="#" icon={Instagram} />
               <SocialIcon href="#" icon={Linkedin} />
             </div>
           </div>
