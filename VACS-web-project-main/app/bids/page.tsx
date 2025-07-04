@@ -59,7 +59,8 @@ A pre-bid conference date will be announced shortly for all interested bidders.
               <div className="flex flex-col md:items-end gap-2 md:ml-4 min-w-[160px]">
                 <span className="text-xs font-semibold mb-1 text-[#e67a7c]">DUE: MARCH 7, 2025</span>
                 <div className="flex gap-2">
-                  <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full"><Link href={"https://www.dropbox.com/scl/fi/nxphv1j7oqcix7ilt4qnq/250113_YSGA_Addition_Full-Progress-Set.pdf?rlkey=g0bihhe441l5eo7bzx4n3qzf8&e=1&dl=0"}>
+                  <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full">
+                    <Link href="https://www.dropbox.com/scl/fi/nxphv1j7oqcix7ilt4qnq/250113_YSGA_Addition_Full-Progress-Set.pdf?rlkey=g0bihhe441l5eo7bzx4n3qzf8&e=1&dl=0">
                   DOWNLOAD RFP</Link></button>
                   <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">SUBMIT PROPOSAL</button>
                 </div>
