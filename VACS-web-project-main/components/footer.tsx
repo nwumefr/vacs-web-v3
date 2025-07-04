@@ -64,9 +64,9 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold uppercase mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li>(717)-666-7099</li>
+              <li>(484) 681-2824</li>
               <li>info@dreamschoolsinc.org</li>
-              <li>1530 Westerly Pkwy, State College, PA 16801</li>
+              <li>700 Newport Drive, Pittsburgh, PA 1523</li>
             </ul>
           </div>
 

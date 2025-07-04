@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import Link from "next/link";
 
 export default function BidsPage() {
   return (
@@ -23,6 +24,39 @@ export default function BidsPage() {
         <div className="max-w-3xl mx-auto w-full">
           <h2 className="text-xl font-display font-bold text-center text-[#2b4c7a] mb-8 tracking-wide">OPEN OPPORTUNITIES</h2>
           <div className="space-y-6">
+            {/* op 0 */}
+            <div className="bg-white rounded shadow p-6 flex flex-col md:flex-row md:items-center justify-between border-t-4 border-[#f4c8a4]">
+              <div>
+                <h3 className="font-display font-bold text-lg text-[#2b4c7a]">Request for Proposal: School Building Addition Project</h3>
+                <p className="text-gray-700 text-sm mt-1 mb-2 max-w-2xl">
+                  Owner: Dream Schools, Inc.<br />
+
+Project Location: 10 Center Street, McKeesport, PA 15312<br />
+
+Dream Schools, Inc. is soliciting proposals from qualified bidders for a school building addition project designed to enhance educational space for Young Scholars of Greater Allegheny Charter School.
+
+Project Overview:
+
+The planned addition will total approximately 14,172 square feet, including a gymnasium, classrooms, and offices—a dynamic, purpose-built expansion to support 21st-century learning.
+
+Project Specifications:
+
+Detailed drawings and specifications can be accessed via the link below or by contacting the parties listed:<br />
+
+· Email: info@dreamschoolsinc.org<br />
+
+· Architect Contact: nhart@hartarc.com (Hart Architects)
+                  </p>
+              </div>
+              <div className="flex flex-col md:items-end gap-2 md:ml-4 min-w-[160px]">
+                <span className="text-xs font-semibold mb-1 text-[#e67a7c]">DUE: MARCH 7, 2025</span>
+                <div className="flex gap-2">
+                  <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full"><Link href={"https://www.dropbox.com/scl/fi/nxphv1j7oqcix7ilt4qnq/250113_YSGA_Addition_Full-Progress-Set.pdf?rlkey=g0bihhe441l5eo7bzx4n3qzf8&e=1&dl=0"}>
+                  DOWNLOAD RFP</Link></button>
+                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">SUBMIT PROPOSAL</button>
+                </div>
+              </div>
+            </div>
             {/* Opportunity 1 */}
             <div className="bg-white rounded shadow p-6 flex flex-col md:flex-row md:items-center justify-between border-t-4 border-[#f4c8a4]">
               <div>
