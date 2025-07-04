@@ -18,6 +18,7 @@ export default function BidsPage() {
           </p>
         </div>
       </section>
+      
 
       {/* Open Opportunities Section */}
       <section className="py-12 px-4 bg-[#eaf1f6]">
@@ -45,7 +46,14 @@ Detailed drawings and specifications can be accessed via the link below or by co
 
 · Email: info@dreamschoolsinc.org<br />
 
-· Architect Contact: nhart@hartarc.com (Hart Architects)
+· Architect Contact: nhart@hartarc.com (Hart Architects)<br />
+“Bid for School Building Addition”
+<br />
+Include the bidder's name and the bid due date/time.
+<br />
+Pre-Bid Conference:
+<br />
+A pre-bid conference date will be announced shortly for all interested bidders.
                   </p>
               </div>
               <div className="flex flex-col md:items-end gap-2 md:ml-4 min-w-[160px]">
@@ -120,6 +128,9 @@ Detailed drawings and specifications can be accessed via the link below or by co
             For more information, or to be added to our vendor database, please contact <span className="underline">procurement@dream-schools.org</span>.
           </div>
         </div>
+        <br />
+        <br />
+        <p className="text-xs text-center">Dream Schools, Inc. reserves the right to reject any or all bids and to waive any informalities or irregularities in the bidding process</p>
       </section>
 
       <Footer />
