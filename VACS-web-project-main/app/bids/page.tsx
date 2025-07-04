@@ -70,63 +70,8 @@ A pre-bid conference date will be announced shortly for all interested bidders.
                 </div>
               </div>
             </div>
-            {/* Opportunity 1 */}
-            <div className="bg-white rounded shadow p-6 flex flex-col md:flex-row md:items-center justify-between border-t-4 border-[#f4c8a4]">
-              <div>
-                <h3 className="font-display font-bold text-lg text-[#2b4c7a]">General Contractor Services - Innovation Academy Phase 2</h3>
-                <p className="text-gray-700 text-sm mt-1 mb-2 max-w-2xl">
-                  Dream Schools is seeking qualified general contractors for Phase 2 of the Innovation Academy project in Philadelphia, PA. The project involves the renovation of 15,000 square feet of existing space to create additional classrooms, a media center, and administrative offices.
-                </p>
-              </div>
-              <div className="flex flex-col md:items-end gap-2 md:ml-4 min-w-[160px]">
-                <span className="text-xs font-semibold mb-1 text-[#e67a7c]">DUE: JULY 15, 2023</span>
-                <div className="flex gap-2">
-                  <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full">DOWNLOAD RFP</button>
-                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">
-                    <Link href="mailto:info@dreamschoolsinc.org?subject=Bid%20Submission&body=I%20wanted%20to%20reach%20out">
-                    SUBMIT PROPOSAL
-                    </Link>
-                    </button></div>
-              </div>
-            </div>
-            {/* Opportunity 2 */}
-            <div className="bg-white rounded shadow p-6 flex flex-col md:flex-row md:items-center justify-between border-t-4 border-[#f4c8a4]">
-              <div>
-                <h3 className="font-display font-bold text-lg text-[#2b4c7a]">Architectural Services - Horizon Charter School Expansion</h3>
-                <p className="text-gray-700 text-sm mt-1 mb-2 max-w-2xl">
-                  Dream Schools is seeking architectural services for the expansion of Horizon Charter School in Atlanta, GA. The project involves designing a 20,000 square foot addition to the existing facility to accommodate growing enrollment.
-                  </p>
-              </div>
-              <div className="flex flex-col md:items-end gap-2 md:ml-4 min-w-[160px]">
-                <span className="text-xs font-semibold mb-1 text-[#e67a7c]">DUE: JULY 15, 2023</span>
-                <div className="flex gap-2">
-                  <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full">DOWNLOAD RFP</button>
-                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">
-                    <Link href="mailto:info@dreamschoolsinc.org?subject=Bid%20Submission&body=I%20wanted%20to%20reach%20out">
-                    SUBMIT PROPOSAL
-                    </Link>
-                    </button></div>
-              </div>
-            </div>
-            {/* Opportunity 3 */}
-            <div className="bg-white rounded shadow p-6 flex flex-col md:flex-row md:items-center justify-between border-t-4 border-[#e3a678]">
-              <div>
-                <h3 className="font-display font-bold text-lg text-[#2b4c7a]">MEP Engineering Services - Multiple Projects</h3>
-                <p className="text-gray-700 text-sm mt-1 mb-2 max-w-2xl">
-                  Dream Schools is seeking MEP engineering services for a series of upcoming charter school projects. The selected firm(s) will provide design and consulting services for new construction and renovation projects across multiple states.
-                </p>
-              </div>
-              <div className="flex flex-col md:items-end gap-2 md:ml-4 min-w-[160px]">
-                <span className="text-xs font-semibold mb-1 text-[#e67a7c]">DUE: JULY 15, 2023</span>
-                <div className="flex gap-2">
-                  <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full">DOWNLOAD RFP</button>
-                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">
-                    <Link href="mailto:info@dreamschoolsinc.org?subject=Bid%20Submission&body=I%20wanted%20to%20reach%20out">
-                    SUBMIT PROPOSAL
-                    </Link>
-                    </button></div>
-              </div>
-            </div>
+              {/* </div> */}
+            {/* </div> */}
           </div>
         </div>
       </section>
