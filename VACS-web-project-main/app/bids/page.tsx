@@ -62,7 +62,11 @@ A pre-bid conference date will be announced shortly for all interested bidders.
                   <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full">
                     <Link href="https://www.dropbox.com/scl/fi/nxphv1j7oqcix7ilt4qnq/250113_YSGA_Addition_Full-Progress-Set.pdf?rlkey=g0bihhe441l5eo7bzx4n3qzf8&e=1&dl=0">
                   DOWNLOAD RFP</Link></button>
-                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">SUBMIT PROPOSAL</button>
+                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">
+                    <Link href="mailto:info@dreamschoolsinc.org?subject=Bid%20Submission&body=I%20wanted%20to%20reach%20out">
+                    SUBMIT PROPOSAL
+                    </Link>
+                    </button>
                 </div>
               </div>
             </div>
@@ -78,8 +82,11 @@ A pre-bid conference date will be announced shortly for all interested bidders.
                 <span className="text-xs font-semibold mb-1 text-[#e67a7c]">DUE: JULY 15, 2023</span>
                 <div className="flex gap-2">
                   <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full">DOWNLOAD RFP</button>
-                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">SUBMIT PROPOSAL</button>
-                </div>
+                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">
+                    <Link href="mailto:info@dreamschoolsinc.org?subject=Bid%20Submission&body=I%20wanted%20to%20reach%20out">
+                    SUBMIT PROPOSAL
+                    </Link>
+                    </button></div>
               </div>
             </div>
             {/* Opportunity 2 */}
@@ -94,8 +101,11 @@ A pre-bid conference date will be announced shortly for all interested bidders.
                 <span className="text-xs font-semibold mb-1 text-[#e67a7c]">DUE: JULY 15, 2023</span>
                 <div className="flex gap-2">
                   <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full">DOWNLOAD RFP</button>
-                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">SUBMIT PROPOSAL</button>
-                </div>
+                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">
+                    <Link href="mailto:info@dreamschoolsinc.org?subject=Bid%20Submission&body=I%20wanted%20to%20reach%20out">
+                    SUBMIT PROPOSAL
+                    </Link>
+                    </button></div>
               </div>
             </div>
             {/* Opportunity 3 */}
@@ -110,8 +120,11 @@ A pre-bid conference date will be announced shortly for all interested bidders.
                 <span className="text-xs font-semibold mb-1 text-[#e67a7c]">DUE: JULY 15, 2023</span>
                 <div className="flex gap-2">
                   <button className="bg-orange-400 hover:bg-orange-500 text-white text-xs font-bold py-1 px-3 rounded-full">DOWNLOAD RFP</button>
-                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">SUBMIT PROPOSAL</button>
-                </div>
+                  <button className="bg-white border border-orange-400 text-orange-400 hover:bg-orange-50 text-xs font-bold py-1 px-3 rounded-full">
+                    <Link href="mailto:info@dreamschoolsinc.org?subject=Bid%20Submission&body=I%20wanted%20to%20reach%20out">
+                    SUBMIT PROPOSAL
+                    </Link>
+                    </button></div>
               </div>
             </div>
           </div>
