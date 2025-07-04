@@ -66,7 +66,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-300">
               <li>(484) 681-2824</li>
               <li>info@dreamschoolsinc.org</li>
-              <li>700 Newport Drive, Pittsburgh, PA 1523</li>
+              <li>700 Newport Drive, Pittsburgh, PA 15423</li>
             </ul>
           </div>
 
