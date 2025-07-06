@@ -52,15 +52,15 @@ export default function MissionPage() {
           <h3 className="text-center text-2xl font-display font-bold mb-10 text-gray-800">OUR IMPACT</h3>
           <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch">
             <div className="bg-white rounded-2xl shadow-md px-8 py-8 text-center flex-1 min-w-[200px] border-t-8 border-orange-400 flex flex-col justify-center">
-              <div className="text-3xl font-bold text-orange-400 mb-2">10K+</div>
+              <div className="text-3xl font-bold text-orange-400 mb-2">3000+</div>
               <div className="text-gray-700 font-semibold">STUDENTS IMPACTED</div>
             </div>
             <div className="bg-white rounded-2xl shadow-md px-8 py-8 text-center flex-1 min-w-[200px] border-t-8 border-orange-400 flex flex-col justify-center">
-              <div className="text-3xl font-bold text-orange-400 mb-2">1M+</div>
+              <div className="text-3xl font-bold text-orange-400 mb-2">200,000+</div>
               <div className="text-gray-700 font-semibold">SQ FT BUILT</div>
             </div>
             <div className="bg-white rounded-2xl shadow-md px-8 py-8 text-center flex-1 min-w-[200px] border-t-8 border-orange-400 flex flex-col justify-center">
-              <div className="text-3xl font-bold text-orange-400 mb-2">25+</div>
+              <div className="text-3xl font-bold text-orange-400 mb-2">10+</div>
               <div className="text-gray-700 font-semibold">PROJECTS COMPLETED</div>
             </div>
           </div>

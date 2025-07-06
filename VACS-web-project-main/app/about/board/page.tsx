@@ -30,15 +30,15 @@ export default function BoardPage() {
             <h2 className="text-xl font-display font-bold tracking-[0.2em] mb-10">OUR IMPACT</h2>
             <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch">
               <div className="flex-1 min-w-[180px] bg-white/10 rounded-2xl shadow-md px-8 py-8 text-center border-t-8 border-orange-400 flex flex-col justify-center">
-                <div className="text-3xl font-bold text-orange-300 mb-2">10K+</div>
+                <div className="text-3xl font-bold text-orange-300 mb-2">3000+</div>
                 <div className="font-semibold">STUDENTS SERVED</div>
               </div>
               <div className="flex-1 min-w-[180px] bg-white/10 rounded-2xl shadow-md px-8 py-8 text-center border-t-8 border-orange-400 flex flex-col justify-center">
-                <div className="text-3xl font-bold text-orange-300 mb-2">1M+</div>
+                <div className="text-3xl font-bold text-orange-300 mb-2">200,000+</div>
                 <div className="font-semibold">SQ FT DEVELOPED</div>
               </div>
               <div className="flex-1 min-w-[180px] bg-white/10 rounded-2xl shadow-md px-8 py-8 text-center border-t-8 border-orange-400 flex flex-col justify-center">
-                <div className="text-3xl font-bold text-orange-300 mb-2">25+</div>
+                <div className="text-3xl font-bold text-orange-300 mb-2">10+</div>
                 <div className="font-semibold">PROJECTS COMPLETED</div>
               </div>
             </div>
