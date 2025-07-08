@@ -76,11 +76,17 @@ export default function Footer() {
             <p className="text-sm text-gray-300 mb-4">Stay updated with our latest news and projects.</p>
             <div className="flex">
               <Input
+                id="newsletter-email"
                 placeholder="Your email"
                 className="bg-white text-black rounded-full rounded-r-none border-none px-4 py-2"
               />
               <Button
-                type="submit"
+                onClick={() => {
+                  const email = (document.getElementById('newsletter-email') as HTMLInputElement)?.value;
+                  const subject = encodeURIComponent('Newsletter Subscription Request');
+                  const body = encodeURIComponent(`I would like to subscribe to the Dream Schools newsletter.\n\nEmail: ${email || '[Please enter your email]'}`);
+                  window.location.href = `mailto:info@dreamschoolsinc.org?subject=${subject}&body=${body}`;
+                }}
                 className="bg-[--clr-accent] text-white font-bold uppercase rounded-full rounded-l-none px-6 hover:bg-orange-600"
               >
                 Subscribe
