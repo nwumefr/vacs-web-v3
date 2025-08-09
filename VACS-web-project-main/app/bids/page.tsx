@@ -84,7 +84,7 @@ A pre-bid conference date will be announced shortly for all interested bidders.
             style={{ background: "linear-gradient(90deg,#2b4c7a 0%, #4a6ba1 100%)" }}>
             Dream Schools is committed to fair, open, and competitive procurement processes. We seek to work with diverse vendors and suppliers who share our commitment to quality, sustainability, and innovation.<br /><br />
             We encourage proposals and involvement from minority-owned businesses, women-owned businesses, and other historically disadvantaged and underutilized vendors. We strictly conduct business with honesty, integrity, and objectivity, all protected within written contractual relationships with our partners.<br /><br />
-            For more information, or to be added to our vendor database, please contact <span className="underline">procurement@dream-schools.org</span>.
+            For more information, or to be added to our vendor database, please contact <span className="underline">info@dreamschoolsinc.org</span>.
           </div>
         </div>
         <br />
